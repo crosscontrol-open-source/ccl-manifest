@@ -2,7 +2,7 @@
   <default revision="refs/heads/master" remote="crosscontrol" sync-j="4"/>
   <remote name="crosscontrol" fetch="git@bitbucket.org:crosscontrol"/>
   <remote name="github" fetch="https://github.com" />
-  <remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
+  <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
 
   <project name="meta-qt5/meta-qt5" remote="github" path="meta-qt5" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" />
   <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="b27b59e2f9a3a7446f740b10560462076ef07009" />
