@@ -2,8 +2,8 @@
   <include name="base.xml" />
 
   <!-- Intel platform related stuff -->
-  <project name="meta-intel" remote="yoctoproject" path="meta-intel" revision="3f0115e9e59f94af54b74838f4f33339ea7584ae" />
-  <project name="kraj/meta-clang" remote="github" path="meta-clang" revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" />
+  <project name="meta-intel" remote="yoctoproject" path="meta-intel" revision="dc0948200594dacece4da91f4c501e9a9fb0394f" upstream="kirkstone" />
+  <project name="kraj/meta-clang" remote="github" path="meta-clang" revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone" />
 
 
 </manifest>
