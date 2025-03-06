@@ -8,9 +8,9 @@
   <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="b27b59e2f9a3a7446f740b10560462076ef07009" />
 
   <!-- Yocto/Openembedded related stuff -->
-  <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" />
-  <project name="meta-security" remote="yoctoproject" path="meta-security" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" />
-  <project name="meta-virtualization" remote="yoctoproject" path="meta-virtualization" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" />
-  <project name="poky" remote="yoctoproject" path="poky" revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" />
+  <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" upstream="kirkstone" />
+  <project name="meta-security" remote="yoctoproject" path="meta-security" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" upstream="master" />
+  <project name="meta-virtualization" remote="yoctoproject" path="meta-virtualization" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master" />
+  <project name="poky" remote="yoctoproject" path="poky" revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone" />
 
 </manifest>
