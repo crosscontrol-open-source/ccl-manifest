@@ -5,7 +5,7 @@
   <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
 
   <project name="meta-qt5/meta-qt5" remote="github" path="meta-qt5" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" />
-  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="b27b59e2f9a3a7446f740b10560462076ef07009" />
+  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="b5fc74e4c94c2f0a0ec92f2283168125a723c6bf" upstream="kirkstone" />
 
   <!-- Yocto/Openembedded related stuff -->
   <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" upstream="kirkstone" />
