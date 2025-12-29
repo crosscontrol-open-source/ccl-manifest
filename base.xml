@@ -1,17 +1,19 @@
 <manifest>
-  <default revision="refs/heads/master" remote="crosscontrol" sync-j="4"/>
+  <default revision="refs/heads/scarthgap" remote="crosscontrol" sync-j="4"/>
   <remote name="crosscontrol" fetch="git@bitbucket.org:crosscontrol"/>
   <remote name="github" fetch="https://github.com" />
   <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
 
-  <project name="meta-qt5/meta-qt5" remote="github" path="meta-qt5" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" />
-  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="b5fc74e4c94c2f0a0ec92f2283168125a723c6bf" upstream="kirkstone" />
+  <project name="meta-qt6" remote="qt" path="sources/meta-qt6" revision="586a6cb5aec755803a3be3cec359baafe89d6432" upstream="6.8" />
+  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="a0f4a8b9986954239850b9d4256c003c91e6b931" upstream="scarthgap" />
+
+  <project name="meta-arm" remote="yoctoproject" path="meta-arm" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
 
   <!-- Yocto/Openembedded related stuff -->
-  <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="f8dddbfcbfe502cb71375a7a907e61a92e8d4474" upstream="kirkstone" />
-  <project name="crosscontrol-open-source/meta-security" remote="github" path="meta-security" revision="b9cf9cd639bc8d1b4828eb0bd012b71486d35176" upstream="kirkstone" />
-  <project name="crosscontrol-open-source/meta-virtualization" remote="github" path="meta-virtualization" revision="426530794bfc0df686566beed50e245f40565d6c" upstream="kirkstone" />
-  <!-- kirkstone-4.0.25 release -->
-  <project name="yoctoproject/poky" remote="github" path="poky" revision="b5aa03f336c121269551f9e7baed4c677c76bb39" upstream="kirkstone" />
+  <project name="meta-openembedded" remote="github" path="meta-openembedded" revision="72018ca1b1a471226917e8246e8bbf9a374ccf97" upstream="scarthgap"/>
+  <project name="meta-security" remote="yoctoproject" path="meta-security" revision="459d837338ca230254baa2994f870bf6eb9d0139" upstream="scarthgap"/>
+  <project name="meta-virtualization" remote="yoctoproject" path="meta-virtualization" revision="6f3c1d8f90947408a6587be222fec575a1ca5195" upstream="scarthgap"/>
+
+  <project name="poky" remote="yoctoproject" path="poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
 
 </manifest>
