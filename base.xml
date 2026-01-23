@@ -4,7 +4,7 @@
   <remote name="github" fetch="https://github.com" />
   <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
 
-  <project name="YoeDistro/meta-qt6" remote="github" path="meta-qt6" revision="586a6cb5aec755803a3be3cec359baafe89d6432" upstream="6.8" />
+  <project name="YoeDistro/meta-qt6" remote="github" path="meta-qt6" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
   <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="a0f4a8b9986954239850b9d4256c003c91e6b931" upstream="scarthgap" />
 
   <project name="meta-arm" remote="yoctoproject" path="meta-arm" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
