@@ -7,7 +7,7 @@
   <project name="crosscontrol-open-source/meta-qt6" remote="github" path="meta-qt6" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
   <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="a0f4a8b9986954239850b9d4256c003c91e6b931" upstream="scarthgap" />
 
-  <project name="Ezurio/meta-summit-radio" remote="github" path="meta-summit-radio" revision="0de43a88f7e88d4fabe114ece96a81cc87b8af34" upstream="lrd-13.24.0.x"/>
+  <project name="Ezurio/meta-summit-radio" remote="github" path="meta-summit-radio" revision="0de43a88f7e88d4fabe114ece96a81cc87b8af34" upstream="lrd-13.98.0.x"/>
 
   <project name="meta-arm" remote="yoctoproject" path="meta-arm" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
 
