@@ -16,6 +16,7 @@
   <project name="crosscontrol-open-source/meta-security" remote="github" path="meta-security" revision="459d837338ca230254baa2994f870bf6eb9d0139" upstream="scarthgap"/>
   <project name="crosscontrol-open-source/meta-virtualization" remote="github" path="meta-virtualization" revision="6f3c1d8f90947408a6587be222fec575a1ca5195" upstream="scarthgap"/>
 
-  <project name="poky" remote="yoctoproject" path="poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
+  <!-- scarthgap-5.0.5 -->
+  <project name="yoctoproject/poky" remote="github" path="poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
 
 </manifest>
