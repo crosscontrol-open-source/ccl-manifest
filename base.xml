@@ -10,7 +10,7 @@
   <project name="Ezurio/meta-summit-radio" remote="github" path="meta-summit-radio" revision="0de43a88f7e88d4fabe114ece96a81cc87b8af34" upstream="lrd-13.98.0.x"/>
 
   <project name="meta-arm" remote="yoctoproject" path="meta-arm" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
-  <project name="crosscontrol-open-source/meta-cyclonedx" remote="github" path="meta-cyclonedx" revision="82cc133df298f0f9838fcc802ec80d829224c6bb" upstream="main"/>
+  <project name="crosscontrol-open-source/meta-cyclonedx" remote="github" path="meta-cyclonedx" revision="48c79169e28e621b3d716b17876fc045760054e4" upstream="scarthgap"/>
 
   <!-- Yocto/Openembedded related stuff -->
   <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="cb4570120b0d033c728a788e04b7c75129529a4e" upstream="scarthgap"/>
