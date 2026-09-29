@@ -2,8 +2,16 @@
   <default revision="refs/heads/scarthgap" remote="crosscontrol" sync-j="4"/>
   <remote name="crosscontrol" fetch="git@bitbucket.org:crosscontrol"/>
   <remote name="github" fetch="https://github.com" />
+  <remote name="freescale" fetch="https://github.com/Freescale" />
+  <remote name="github-nxp" fetch="https://github.com/nxp-imx" />
 
-  <project name="crosscontrol-open-source/meta-qt6" remote="github" path="meta-qt6" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
+  <!-- IMX -->
+  <project name="meta-freescale" remote="freescale" path="meta-freescale" revision="0627128b341cfb2bef7a0832ce8cac0ce1127f13" upstream="scarthgap"/>
+  <project name="meta-freescale-3rdparty" remote="freescale" path="meta-freescale-3rdparty" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
+  <project name="meta-freescale-distro" remote="freescale" path="meta-freescale-distro" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
+
+  <project name="meta-imx" remote="github-nxp" path="meta-imx" revision="refs/tags/rel_imx_6.12.34_2.1.0" upstream="walnascar-6.12.34.2.1.0"/>
+
   <!-- RAUC 1.15.2 -->
   <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="fa18cf1fb2840ba23df0fe79f38ffca4bf7a4816" upstream="scarthgap" />
 

@@ -1,0 +1,5 @@
+<manifest>
+  <include name="base.xml" />
+
+  <project name="crosscontrol-open-source/meta-qt6" remote="github" path="meta-qt6" revision="refs/tags/v6.12.0-rc" upstream="6.12.0" />
+</manifest>
