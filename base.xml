@@ -1,29 +1,32 @@
 <manifest>
-  <default revision="refs/heads/scarthgap" remote="crosscontrol" sync-j="4"/>
+  <default revision="refs/heads/wrynose" remote="crosscontrol" sync-j="4"/>
   <remote name="crosscontrol" fetch="git@bitbucket.org:crosscontrol"/>
   <remote name="github" fetch="https://github.com" />
   <remote name="freescale" fetch="https://github.com/Freescale" />
+  <remote name="oe" fetch="https://github.com/openembedded" />
 
   <!-- IMX -->
-  <project name="meta-freescale" remote="freescale" path="meta-freescale" revision="0627128b341cfb2bef7a0832ce8cac0ce1127f13" upstream="scarthgap"/>
-  <project name="meta-freescale-3rdparty" remote="freescale" path="meta-freescale-3rdparty" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
-  <project name="meta-freescale-distro" remote="freescale" path="meta-freescale-distro" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
+  <project name="meta-freescale" remote="freescale" path="meta-freescale" revision="ca31f33c5b5e433939c5f8442d2de56925d638bd" upstream="master"/>
+  <project name="meta-freescale-3rdparty" remote="freescale" path="meta-freescale-3rdparty" revision="26d8b36a72acf1458a2520e4e9f4d654a4ba77e4" upstream="master"/>
+  <project name="meta-freescale-distro" remote="freescale" path="meta-freescale-distro" revision="4464f38b4aa618b5942f5e35dd25cff590f410a6" upstream="master"/>
 
-  <project name="crosscontrol-open-source/meta-imx" remote="github" path="meta-imx" revision="refs/tags/rel_imx_6.12.34_2.1.0" upstream="walnascar-6.12.34.2.1.0"/>
+  <project name="crosscontrol-open-source/meta-imx" remote="github" path="meta-imx" revision="2eb758f42cfb96042344815b7dd7755b06ba1e3b" upstream="wrynose-6.18.37-2.1.0"/>
 
-  <!-- RAUC 1.15.2 -->
-  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="fa18cf1fb2840ba23df0fe79f38ffca4bf7a4816" upstream="scarthgap" />
+  <!-- RAUC (wrynose branch) -->
+  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="38da0e5866a953e664001ba90b5edad68d68cd5d" upstream="wrynose" />
 
-  <project name="Ezurio/meta-summit-radio" remote="github" path="meta-summit-radio" revision="4431abf43ae95c68de5b04db08281c3f531eb4dd" upstream="lrd-13.98.12.x"/>
+  <project name="Ezurio/meta-summit-radio" remote="github" path="meta-summit-radio" revision="9df4ddd551492c7dd9b69b0d829442bd89f9927c" upstream="lrd-14.56.0.x"/>
 
-  <project name="crosscontrol-open-source/meta-arm" remote="github" path="meta-arm" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
-  <project name="crosscontrol-open-source/meta-cyclonedx" remote="github" path="meta-cyclonedx" revision="48c79169e28e621b3d716b17876fc045760054e4" upstream="scarthgap"/>
+  <project name="crosscontrol-open-source/meta-arm" remote="github" path="meta-arm" revision="0979b80429099f1a42dc0026c8c466cee780bc74" upstream="wrynose"/>
+  <project name="crosscontrol-open-source/meta-cyclonedx" remote="github" path="meta-cyclonedx" revision="050f77acc3970c9c2a99bf9e0f6c7de95c538197" upstream="wrynose"/>
 
   <!-- Yocto/Openembedded related stuff -->
-  <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="cb4570120b0d033c728a788e04b7c75129529a4e" upstream="scarthgap"/>
-  <project name="crosscontrol-open-source/meta-security" remote="github" path="meta-security" revision="97e482b71688b62ac1109d16e89368122f039cbf" upstream="scarthgap"/>
-  <project name="crosscontrol-open-source/meta-virtualization" remote="github" path="meta-virtualization" revision="3dd635f613f7299d986a8ab6bc9f584370f8ed1d" upstream="scarthgap"/>
+  <project name="meta-openembedded" remote="oe" path="meta-openembedded" revision="6bf0d8ad57b33950bab4c7f6c037e1ccb6f6e2eb" upstream="wrynose"/>
+  <project name="crosscontrol-open-source/meta-security" remote="github" path="meta-security" revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" upstream="wrynose"/>
+  <project name="crosscontrol-open-source/meta-virtualization" remote="github" path="meta-virtualization" revision="30f1a9d7e5ef1b41c64ff4c3c40951133d548ed8" upstream="wrynose"/>
 
-  <!-- scarthgap-5.0.15 -->
-  <project name="yoctoproject/poky" remote="github" path="poky" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c" upstream="scarthgap"/>
+  <!-- wrynose-6.0.2: poky -->
+  <project name="openembedded-core" remote="oe" path="openembedded-core" revision="5d1aa5c806c061a2994f4decb59016610f093213" upstream="refs/tags/yocto-6.0.2"/>
+  <project name="bitbake" remote="oe" path="openembedded-core/bitbake" revision="acfe02fa38b5da9e6a36c6cedcf91d4fcbefbfbd" upstream="refs/tags/yocto-6.0.2"/>
+  <project name="crosscontrol-open-source/meta-yocto" remote="github" path="meta-yocto" revision="24c24cef5d1523fefe43a3e3d34667b37ae551f3" upstream="wrynose"/>
 </manifest>
